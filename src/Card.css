@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: lightcoral;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    overflow: auto;
+    padding: 10px;
+}
+section {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-color: lightgreen;
+    text-align: center;
+    border-radius: 20px;
+}
+.your-robots {
+    position: relative;
+    top: -10px;
+}
+
+.card-com{
+    position: relative;
+    background-color:lightcyan;
+    top: 5px;
+    left: 17px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 5px;
+}
+.card-com:hover{
+    cursor: pointer;
+}
+h2,p {
+    font-size: 10px;
+    color: brown;
+}
+
+.name{
+    position: relative;
+    left: -190px;
+    font-size: 10px;
+}

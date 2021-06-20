@@ -1,0 +1,11 @@
+.bilgi{
+    position: relative;
+    top: -30px;
+    left: -10px;
+    width: 160px;
+    height: 90px;
+    margin: 5px;
+}
+.bilgi:hover {
+    cursor: pointer;
+}

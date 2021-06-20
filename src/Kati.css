@@ -1,0 +1,8 @@
+.kati img {
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.kati img:hover {
+  transform: rotateX(180deg);
+}
